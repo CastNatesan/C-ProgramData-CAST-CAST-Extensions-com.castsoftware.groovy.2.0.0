@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.groovy</id>
+    <version>2.0.0</version>
+    <title>groovy</title>
+    <authors>CAST Labs Infosys</authors>
+    <owners>CAST</owners>
+    <licenseUrl>https://extend.castsoftware.com/V2/Licenses/Cast-Licence-Labs-1.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>This extension groovy language starting journey</description>
+    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.labs.</releaseNotes>
+    <tags>TIBCO</tags>
+  </metadata>
+</package>

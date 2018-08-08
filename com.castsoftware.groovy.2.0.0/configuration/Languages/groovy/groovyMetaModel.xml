@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel file_level="client" file_no="751">
+
+    <type name="groovy_SUBSET" id="2751001">
+		<description>groovy Subset</description>
+		<inheritedCategory name="PROJECT_SUBSET"/>
+		<inheritedCategory name="groovy"/>
+		<inheritedCategory name="APM groovy Module"/>
+    </type>
+    
+	<category name="APM groovy Module" id="2751009">
+		<description>groovy</description>
+		<inheritedCategory name="APM Client Modules"/>
+	</category>
+
+	<category name="APM groovy Artifacts" id="2751202">
+		<description>groovy Artifacts</description>
+		<inheritedCategory name="APM Client Language Artifacts"/>
+		<!-- <inheritedCategory name="APM Sources"/> -->
+	</category>
+	
+	<category name="groovy" id="2751003">
+		<description>groovy</description>
+		<attribute name="extensions" stringValue="*.groovy"/>
+		<inheritedCategory name="UniversalLanguage"/>
+		<inheritedCategory name="CsvLanguage"/>
+	</category>
+	
+	<!-- groovy Enlighten group -->
+	<type name="Enlightengroovy" id="2751004">
+		<description>groovy</description>
+		<tree parent="EnlightenUniversalObjects" category="EnlightenTree"/>
+	</type>
+	
+	
+	<!-- #################################### Objects Defining #################################### -->
+	<type name="groovy_Project" id="2751005">
+		<description>groovy_Project</description>
+		<inheritedCategory name="UAProject"/>
+		<inheritedCategory name="groovy"/>
+		<inheritedCategory name="APM groovy Module"/>
+	</type>
+	
+		
+	<type name="Groovy_class" id="2751006">
+		<description>groovy class</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="groovy"/>
+		<inheritedCategory name="APM groovy Artifacts"/>
+	</type>
+	
+	<type name="Groovy_AbstractClass" id="2751007">
+		<description>groovy abstract class</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="groovy"/>
+		<inheritedCategory name="APM groovy Artifacts"/>
+	</type>
+	
+	<type name="Groovy_Function" id="2751008">
+		<description>groovy function</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="groovy"/>
+		<inheritedCategory name="Groovy_CustomMetrics"/>
+		<inheritedCategory name="APM groovy Artifacts"/>
+		
+	</type>
+
+	<category name="Groovy_CustomMetrics" id="2751010">
+		<description>Custom category for additional properties on Groovy analysis</description>
+	  <property name="AssertWithinFinallyBlock" type="integer" id="2751102"  merge ="sum">
+			<description>Groovy SDK: Assert Within Finally Block</description>
+			<attribute name="INF_TYPE" intValue="2800100"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	  </property>
+	</category>
+	
+</metaModel>
+
